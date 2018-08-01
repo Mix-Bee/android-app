@@ -17,6 +17,7 @@ object Constants {
         const val PREF_PIN_INTERVAL = "pref_pin_interval"
         const val PREF_PIN_ITERATOR = "pref_pin_iterator"
         const val PREF_CAMERA_TIP = "pref_camera_tip"
+        const val PREF_BIOMETRICS = "pref_biometrics"
     }
 
     const val SLEEP_MILLIS: Long = 1000
@@ -34,4 +35,8 @@ object Constants {
     val KEYS = arrayOf("1", "2", "3", "4", "5", "6", "7", "8", "9", "", "0", "<<")
 
     const val BATCH_SIZE = 700
+
+    const val BIOMETRICS_ALIAS = "biometrics_alias"
+    const val BIOMETRICS_PIN = "biometrics_pin"
+    const val BIOMETRICS_IV = "biometrics_iv"
 }
